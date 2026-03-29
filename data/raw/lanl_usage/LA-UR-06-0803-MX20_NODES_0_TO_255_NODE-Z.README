@@ -1,0 +1,52 @@
+README for usage data for System 20
+LA-UR-06-0803-MX20_NODES_0_TO_255_NODE-Z.README
+
+We request that if you use these data in your research that you recognize Los Alamos for providing these data.
+
+The file is a text file space delimited.
+
+The node specific part of the record is not available until about half way through the file.
+
+This data is only the first 256 nodes 0-255 of Machine 20.
+
+Node numbers in this file start with zero (0).  If you are correlating this usage data with failure data
+make sure you use the correct node number. The failure data has node numbers for both starting at zero and starting at 1.
+
+Example record for records with NO Node information!
+1037251043 806 1024 1037250962 0 0 1037250991 4820.000000 2683.000000 7503 2
+
+Record layout for records with NO Node information!
+job end time (unix time stamp (seconds) time job ended)
+number represeting user id (not real userid - this will be consistent for each user for all usage data for all machines)
+number of processors asked for
+job submit time (unix time stamp (seconds) time user submitted job to queue)
+job suggested start time time (unix time stamp (seconds) time user requested the job to run) 
+job deadline time (unix time stamp (seconds) the deadline time for the job) 
+job dispatch time (unix time stamp (seconds) the time the job got dispatched to run from the queue) 
+number of cpu seconds consumed in user time  (this data may not be completely reliable) for all procs
+number of cpu seconds consumed in system time (this data may not be completely reliable) for all procs
+total time  (addition of user and system time)
+batch id
+
+Example records for records with NO Node information!
+1129928341 17990 16 1129928156 0 0 1129928164 1198.000000 126.000000 1324 10189382  finished / 234 /
+1129919847 5313 4 1129910407 0 0 1129910440 4.000000 5.000000 9 10189243  finished / 129-139 141-142 145-151 153-156 /
+
+
+Record layout for records WITH  Node information!
+job end time (unix time stamp (seconds) time job ended)
+number represeting user id (not real userid - this will be consistent for each user for all usage data for all machines)
+number of processors asked for
+job submit time (unix time stamp (seconds) time user submitted job to queue)
+job suggested start time time (unix time stamp (seconds) time user requested the job to run) 
+job deadline time (unix time stamp (seconds) the deadline time for the job) 
+job dispatch time (unix time stamp (seconds) the time the job got dispatched to run from the queue) 
+number of cpu seconds consumed in user time  (this data may not be completely reliable) for all procs
+number of cpu seconds consumed in system time (this data may not be completely reliable) for all procs
+total time  (addition of user and system time)
+batchid
+job finish status
+/ node numbers please note there can be ranges like 129-139 /
+
+
+

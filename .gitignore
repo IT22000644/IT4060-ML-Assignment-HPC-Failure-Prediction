@@ -58,7 +58,6 @@ htmlcov/
 
 # Local data directories
 # Remove these if you intend to version small datasets in Git.
-/data/
 /datasets/
 
 # Trained model artifacts
