@@ -1,0 +1,2 @@
+model_name,target_column,learning_rate,max_iter,max_depth,max_leaf_nodes,min_samples_leaf,l2_regularization,iterations_completed,train_rows,validation_rows,test_rows,train_positive_rate,validation_positive_rate,test_positive_rate
+hist_gradient_boosting,label_next_6h,0.05,200,6,31,50,0.1,200,488782,114395,84637,0.001180485369755842,0.0006643647012544255,0.0005671278518851094
