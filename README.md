@@ -112,6 +112,12 @@ Predict whether a system/node will fail within a future time window (**horizon-b
 
 ---
 
+## 📝 Detailed Report
+
+* Full workflow report: [report/ML_assignment_report.md](report/ML_assignment_report.md)
+
+---
+
 ## 📂 Project Structure
 
 ```
@@ -119,7 +125,6 @@ IT4060-hpc-failure-prediction/
 │
 ├── data/
 ├── notebooks/
-├── src/
 ├── results/
 ├── report/
 ├── README.md

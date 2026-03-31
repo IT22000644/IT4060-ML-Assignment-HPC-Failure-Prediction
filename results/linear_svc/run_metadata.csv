@@ -1,0 +1,2 @@
+model_name,target_column,C_value,max_iter,tol,iterations_completed,train_rows,validation_rows,test_rows,train_positive_rate,validation_positive_rate,test_positive_rate
+linear_svc,label_next_6h,1.0,5000,0.0001,14,488782,114395,84637,0.001180485369755842,0.0006643647012544255,0.0005671278518851094

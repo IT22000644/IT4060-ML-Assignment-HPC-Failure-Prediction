@@ -1,0 +1,6 @@
+model_name,display_name,target_column,solver,max_iter,iterations_completed,train_rows,validation_rows,test_rows,train_positive_rate,validation_positive_rate,test_positive_rate,n_estimators,max_depth,min_samples_leaf,max_samples,n_jobs,learning_rate,max_leaf_nodes,l2_regularization,max_features,C_value,tol
+logistic_regression_baseline,Logistic Regression,label_next_6h,saga,300.0,300.0,488782,114395,84637,0.0011804853697558,0.0006643647012544,0.0005671278518851,,,,,,,,,,,
+random_forest,Random Forest,label_next_6h,,,,488782,114395,84637,0.0011804853697558,0.0006643647012544,0.0005671278518851,100.0,14.0,5.0,0.2,1.0,,,,,,
+hist_gradient_boosting,Hist Gradient Boosting,label_next_6h,,200.0,200.0,488782,114395,84637,0.0011804853697558,0.0006643647012544,0.0005671278518851,,6.0,50.0,,,0.05,31.0,0.1,,,
+extra_trees,Extra Trees,label_next_6h,,,,488782,114395,84637,0.0011804853697558,0.0006643647012544,0.0005671278518851,200.0,18.0,5.0,,1.0,,,,sqrt,,
+linear_svc,Linear SVC,label_next_6h,,5000.0,14.0,488782,114395,84637,0.0011804853697558,0.0006643647012544,0.0005671278518851,,,,,,,,,,1.0,0.0001
