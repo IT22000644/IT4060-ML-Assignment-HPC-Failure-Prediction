@@ -1,7 +1,7 @@
 model_name,target_column,n_estimators,max_depth,min_samples_leaf,max_features,n_jobs,train_rows,validation_rows,test_rows,train_positive_rate,validation_positive_rate,test_positive_rate,display_name,horizon_hours,training_seconds,learning_rate,max_iter,max_leaf_nodes,l2_regularization,iterations_completed
 extra_trees,label_next_6h,200.0,18.0,5.0,sqrt,1.0,488782.0,114395.0,84637.0,0.0011804853697558,0.0006643647012544,0.0005671278518851,Extra Trees,6,,,,,,
 hist_gradient_boosting,label_next_6h,,6.0,50.0,,,488782.0,114395.0,84637.0,0.0011804853697558,0.0006643647012544,0.0005671278518851,Hist Gradient Boosting,6,,0.05,200.0,31.0,0.1,200.0
-extra_trees,label_next_12h,,,,,,,,,0.002377337954343654,0.0011713798680012238,0.0009215827593133027,Extra Trees,12,271.5766101999907,,,,,
-hist_gradient_boosting,label_next_12h,,,,,,,,,0.002377337954343654,0.0011713798680012238,0.0009215827593133027,Hist Gradient Boosting,12,44.33972700004233,,,,,
-extra_trees,label_next_24h,,,,,,,,,0.004824236571723181,0.002666200445823681,0.0018549806822075452,Extra Trees,24,250.3734235999873,,,,,
-hist_gradient_boosting,label_next_24h,,,,,,,,,0.004824236571723181,0.002666200445823681,0.0018549806822075452,Hist Gradient Boosting,24,44.29246399999829,,,,,
+extra_trees,label_next_12h,,,,,,,,,0.002377337954343654,0.0011713798680012238,0.0009215827593133027,Extra Trees,12,195.43646530003753,,,,,
+hist_gradient_boosting,label_next_12h,,,,,,,,,0.002377337954343654,0.0011713798680012238,0.0009215827593133027,Hist Gradient Boosting,12,33.400013000005856,,,,,
+extra_trees,label_next_24h,,,,,,,,,0.004824236571723181,0.002666200445823681,0.0018549806822075452,Extra Trees,24,211.18546529999003,,,,,
+hist_gradient_boosting,label_next_24h,,,,,,,,,0.004824236571723181,0.002666200445823681,0.0018549806822075452,Hist Gradient Boosting,24,41.6369220999768,,,,,
