@@ -1,3 +1,3 @@
 model_name,display_name,config_name,training_seconds,validation_pr_auc,validation_roc_auc,validation_precision_at_50
-extra_trees,Extra Trees,et_regularized,156.49980820005294,0.010833585466606548,0.5489618204782247,0.04
-hist_gradient_boosting,Hist Gradient Boosting,hgb_base,21.374544800026342,0.009819941369841876,0.4964305286737965,0.12
+extra_trees,Extra Trees,et_regularized,82.89365299999918,0.010833585466606548,0.5489618204782247,0.04
+hist_gradient_boosting,Hist Gradient Boosting,hgb_base,16.891757500001404,0.009819941369841876,0.4964305286737965,0.12
